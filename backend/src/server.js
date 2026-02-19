@@ -16,6 +16,8 @@ const app = express();
 app.use(
   cors({
     origin: [
+      "http://localhost:8081",
+      "http://localhost:19006",
       "http://localhost:3000",
       "https://micro-marketplace-app.vercel.app",
     ],
