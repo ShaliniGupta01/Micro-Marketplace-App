@@ -115,9 +115,10 @@ User 1
 Email: soniya12@gmail.com
 Password: 123456
 
-User 1  
+User 2  
 Email: rahul12@gmail.com
 Password: 123456789
+
 ---
 
 ## 📡 API Endpoints
@@ -247,11 +248,7 @@ const API = "https://your-backend-url.com";
 
 ---
 
-# 🎥 Demo
 
-(Add 3–5 minute demo video link here)
-
----
 
 # 👩‍💻 Author
 
