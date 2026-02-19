@@ -15,6 +15,12 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.status(200).json({
+    message: "🚀 Micro Marketplace Backend is Live!",
+  });
+});
+
 app.use("/auth", authRoutes);
 app.use("/products", productRoutes);
 app.use("/favorites", favoriteRoutes);
